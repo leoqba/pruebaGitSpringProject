@@ -32,7 +32,7 @@ public class ClienteRestController {
 		return clienteService.findAll();
 		
 	}
-	
+	int sec = 22;
 	@GetMapping("/clientes/{id}")
 	public Cliente show(@PathVariable Long id) {
 		return clienteService.findById(id);
